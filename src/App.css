@@ -1,26 +1,27 @@
 .App {
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
  }
  .titre{
   color: rgb(220, 229, 245);
 }
-.movies{
+/*.movie{
   display: flex;
   justify-content: space-around;
   width: 60%;
- /* border: 2px solid red;*/
-  }
+  border: 2px solid red;
+  } */
 .list{
   display: flex;
- /* border:2px solid springgreen;*/
-  width:100%;
+  /*border:2px solid springgreen;*/
+  width: 70%;
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 20px;
