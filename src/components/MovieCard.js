@@ -1,8 +1,11 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
 import StarRatingComponent from 'react-star-rating-component';
+import Trailer1 from '../comRouter/Trailer1';
+import {BrowserRouter as Router, Switch,Route,Link } 
+from "react-router-dom";
 
-const MovieCard = ({movie:{imgsrc,title,description,rate}}) => {
+const MovieCard = ({movie:{imgsrc,title,description,rate,trailer}}) => {
 return (
  <div >
  <Card style={{ width:'15rem' }}>
@@ -13,8 +16,11 @@ return (
       {description}
      </Card.Text>
      <StarRatingComponent value={rate}/>
+     <Card.Text>
+      {trailer}
+     </Card.Text>
   </Card.Body>
-</Card>  )
+</Card>  
 
  </div>
 );
