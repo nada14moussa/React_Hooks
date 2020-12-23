@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import ModalComp from './components/ModalComp';
 import {movies} from './components/Movies';
 import SearchBar from './components/searchBar';
-
+//second commit here
 function App() {
   const [movieList, setMovieList] = useState(movies);
   const addMovie = (newMovie) => setMovieList([...movieList, newMovie]);
